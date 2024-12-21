@@ -51,7 +51,7 @@ const user = {
     }
 }
 
-console.log(user.login);
+console.log(user.login());
 //4
 const movie = {
     title: "Man in Black",
