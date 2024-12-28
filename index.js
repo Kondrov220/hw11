@@ -17,6 +17,8 @@ const bankAccount = {
     }
 }
 
+const {owenName, accountNumber, balance, deposit, withdraw} = bankAccount;
+
 console.log(bankAccount.deposit());
 console.log(bankAccount.withdraw());
 //2
@@ -34,6 +36,9 @@ const weater = {
         }
     }
 }
+
+const {temperature, humidity, windSpeed, isTrue} = weater;
+
 if(weater.isTrue() === true){
     console.log("температура нижче 0 градусів Цельсія");
 }else if(weater.isTrue() === false){
@@ -50,6 +55,8 @@ const user = {
         }
     }
 }
+
+const {name, email, password, login} = user;
 
 console.log(user.login());
 //4
@@ -68,6 +75,8 @@ const movie = {
     }
     }
 }
+
+const {title, director, year, raiting, isFalse} = movie;
 
 if(movie.isFalse() === true){
     console.log(`назва ${movie.title}, директор ${movie.director}, рік виходу ${movie.year}, рейтинг ${movie.raiting}`);
